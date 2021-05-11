@@ -1,0 +1,227 @@
+
+*{
+	margin:0;
+	padding: 0;
+
+
+	}
+	
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index:10;
+}
+.navbar-brand img
+{
+	height:100px;
+	padding-left:30px;
+
+}
+
+.navbar-nav li
+{
+	padding:0 10px;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align:left;
+
+}
+
+#nav-bar ul li a:hover 
+{
+	color: #7E57C2!important;
+}
+
+.navbar
+{
+	background: #fff;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+}
+
+.nav-link
+{
+	color: #555!important
+	front-weight;
+}
+
+
+
+#ABOUT
+{
+
+	background-image:linear-gradient(#ffffff, #ffffff);
+	background-size:cover;
+	background-position:center;
+	color: #3A484E !important;
+	background-attachment:fixed;
+	padding-top:50px;
+	padding-bottom:50px;
+
+}
+
+#ABOUT h1
+{
+	
+text-align: center;
+	color: #7E57C2 !important;
+	padding-bottom: 10px;
+}
+
+#ABOUT h1::after
+{
+	content:'';
+	background:#3A484E;
+	display:block;
+	height:3px;
+	width: :170px;
+	margin:20px auto 5px;
+
+}
+
+
+
+#SERVICES
+{
+
+	background-image:linear-gradient(#ffffff, #e0e0d1);
+	background-size:cover;
+	background-position:center;
+	color: #3A484E !important;
+	background-attachment:fixed;
+	padding-top:50px;
+	padding-bottom:50px;
+
+}
+
+#SERVICES h1
+{
+	
+text-align: center;
+	color: #7E57C2 !important;
+	padding-bottom: 10px;
+}
+
+#SERVICES h1::after
+{
+	content:'';
+	background:#3A484E;
+	display:block;
+	height:3px;
+	width: :170px;
+	margin:20px auto 5px;
+
+}
+
+
+#EDITION
+{
+
+	background-image:linear-gradient(#ffffff, #ffffff);
+	background-size:cover;
+	background-position:center;
+	color: #3A484E !important;
+	background-attachment:fixed;
+	padding-top:50px;
+	padding-bottom:50px;
+
+}
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 15px;
+  padding: 0px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 50%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+#CONTACT
+{
+	background-image:linear-gradient (rgba(0,0,0,0.8),rgba(0,0,0,0.8),url(https://images.wallpaperscraft.com/image/records_phonograph_record_vinyl_record_169359_1920x1080.jpg));
+	background-size:cover;
+	background-position:center;
+	color: #2B343A !important;
+	background-attachment:fixed;
+	padding-top:50px;
+	padding-bottom:50px;
+
+}
+
+#CONTACT h1
+{
+	
+text-align: center;
+	color: #7E57C2 !important;
+	padding-bottom: 10px;
+}
+
+#SERVICES h1::after
+{
+	content:'';
+	background:#3A484E;
+	display:block;
+	height:3px;
+	width: :170px;
+	margin:20px auto 5px;
+
+}
+
+
+
+
+
+
+
+
+
